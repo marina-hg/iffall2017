@@ -1,0 +1,74 @@
+body{
+
+	text-align: center;
+	font-family: arial;
+	background-color: rgb(251,215,65);
+}
+
+#p_1{
+	color: rgb(93,109,171);
+}
+
+#p_2{
+	color: rgb(201,63,61);
+}
+
+#p_3{
+	color: black;
+}
+
+#p_4{
+	color: rgb(93,109,171);
+}
+
+#p_5{
+	color: rgb(201,63,61);
+}
+
+#p_6{
+	color: black;
+}
+
+#p_7{
+	color: rgb(93,109,171);
+}
+
+#p_8{
+	color: rgb(201,63,61);
+}
+
+#p_9{
+	color: black;
+}
+
+#p_10{
+	color: rgb(93,109,171);
+}
+
+#p_11{
+	color: rgb(201,63,61);
+}
+
+#p_12{
+	color: black;
+}
+
+#witness{
+	width: 280px;
+	height: 280px;
+}
+
+#lollipop{
+	width: 317px;
+	height: 244px;
+}
+
+#uzi{
+	width: 240px;
+	height: 133px;
+}
+
+#suit{
+	width: 480px;
+	height: 640px;	
+}
