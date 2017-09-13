@@ -1,0 +1,53 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+#title{
+	font-size: 25px;
+	color: grey;
+	font-weight: bold;
+}
+#f-fam{
+	font-size: 25px;
+}
+#f-size{
+	font-size: 25px;
+}
+#sub-t{
+	color: grey;
+	font-size: 15px;
+}
+.ex{
+	font-size: 25px;
+}
+#f-bold-ex{
+	font-weight: bold;
+}
+#f-italic-ex{
+	font-style: italic;
+}
+#f-3-ex{
+	letter-spacing: .3em;
+}
+#f-6-ex{
+	letter-spacing: -.06em;
+}
+#tdec-und-ex{
+	text-decoration: underline;
+}
+#tdec-line-ex{
+	text-decoration: line-through;
+}
+#tdec-over-ex{
+	text-decoration: overline;
+}
+#ttran-up-ex{
+	text-transform: uppercase;
+}
+#ttran-low-ex{
+	text-transform: lowercase;
+}
+#ttran-cap-ex{
+	text-transform: capitalize;
+}
+
+
