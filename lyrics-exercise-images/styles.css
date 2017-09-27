@@ -1,0 +1,110 @@
+body{
+
+	text-align: center;
+	font-family: arial;
+	background-color: rgb(251,215,65);
+}
+h1{
+	font-family: 'Libre Barcode 39 Text', cursive;
+	font-size: 60px;
+}
+h2{
+	font-family: 'Libre Barcode 39 Text', cursive;
+	font-size: 60px;	
+}
+#p_1{
+	color: rgb(93,109,171);
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+	font-family: 'Arvo', serif;
+}
+
+#p_2{
+	color: rgb(201,63,61);
+	font-family: 'Arvo', serif;
+}
+
+#p_3{
+	color: black;
+	font-family: 'Arvo', serif;
+}
+
+#p_4{
+	color: rgb(93,109,171);
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+	font-family: 'Arvo', serif;
+}
+
+#p_5{
+	color: rgb(201,63,61);
+	font-family: 'Arvo', serif;
+}
+
+#p_6{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+	font-family: 'Arvo', serif;
+}
+
+#p_7{
+	color: rgb(93,109,171);
+	font-family: 'Arvo', serif;
+}
+
+#p_8{
+	color: rgb(201,63,61);
+	font-family: 'Arvo', serif;
+}
+
+#p_9{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+	font-family: 'Arvo', serif;
+}
+
+#p_10{
+	color: rgb(93,109,171);
+	font-family: 'Arvo', serif;
+	letter-spacing: .3em;
+}
+
+#p_11{
+	color: rgb(201,63,61);
+	font-family: 'Arvo', serif;
+}
+
+#p_12{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+	font-family: 'Arvo', serif;
+	background-image: url("salt.png")
+}
+
+#witness{
+	width: 280px;
+	height: 280px;
+}
+
+#lollipop{
+	width: 317px;
+	height: 244px;
+}
+
+#uzi{
+	width: 240px;
+	height: 133px;
+}
+
+#suit{
+	width: 480px;
+	height: 640px;	
+}
