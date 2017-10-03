@@ -1,0 +1,394 @@
+a#btn_coca-cola {
+	display: inline-block;
+}
+a#btn_coca-cola img{
+	height: 150px;
+	width: 150px;
+	padding-top: 50px;
+}
+a#btn_coca-cola:hover{
+	filter: grayscale(100%);
+}
+
+a#btn_apple {
+	display: inline-block;
+	width: 150px;
+ 	height:150px;
+ 	padding-top: 80px;
+ 	background: transparent url('apple.png') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_apple:hover{
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	padding-top: 100px;
+	background: url('apple_hover.png') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_ibm{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('ibm.png') center no-repeat;
+ 	background-size: contain;
+ 	filter: blur(1px);
+}
+
+a#btn_ibm:hover{
+	filter: none;
+}
+
+a#btn_nerf{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('nerf.png') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_nerf:hover{
+	filter:drop-shadow(8px 8px 10px red);
+}
+
+a#btn_harley{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('harley.png') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_harley:hover{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	padding-top: 50px;
+	background: url('usa.png') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_mk{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('mk.png') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_mk:hover{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	padding-top: 50px;
+	background: url('mk_hover.png') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_ideo{
+	display: inline-block;
+	width: 100px;
+ 	height:100px;
+ 	padding-top: 150px;
+ 	background: transparent url('ideo.png') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_ideo:hover{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	padding-top: 50px;
+	background: url('ideo_hover.png') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_sardella{
+	display: inline-block;
+	text-decoration: none;
+	color: #a7dbd5;
+	font-family: 'Asap Condensed', sans-serif;
+	font-size: 50px;
+	padding-top: 100px; 
+	filter:drop-shadow(8px 8px 10px lightblue);
+	/*width: 300px;
+ 	height:300px;
+ 	padding-top: 50px;
+ 	background: transparent url('sardella.jpg') center no-repeat;
+ 	background-size: contain;*/
+}
+
+a#btn_sardella:hover{
+	display: inline-block;
+	color: transparent;
+	width: 200px;
+	height: 200px;
+	padding-top: 50px;
+	background: url('sardella_hover.jpg') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_craigslist{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('craig.webp') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_craigslist:hover{
+	transform: scale(1.3,1.3);
+}
+
+a#btn_lyft{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('lyft.png') center no-repeat;
+ 	background-size: contain;
+ 	transition: width 2s;
+}
+
+a#btn_lyft:hover{
+	width:250px;
+}
+
+a#btn_samsung{
+	display: inline-block;
+	width: 150px;
+ 	height:150px;
+ 	padding-top: 100px;
+ 	background: transparent url('sam.jpeg') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_samsung:hover{
+	display: inline-block;
+	color: transparent;
+	width: 200px;
+	height: 200px;
+	padding-top: 50px;
+	background: url('sam_hover.png') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_dimecitycycles{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('dime.jpeg') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_dimecitycycles:hover{
+	display: inline-block;
+	color: transparent;
+	width: 180px;
+	height: 180px;
+	padding-top: 50px;
+	background: url('dime_hover.png') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_cartoonnetwork{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('cn_hover.jpeg') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_cartoonnetwork:hover{
+	display: inline-block;
+	color: transparent;
+	width: 180px;
+	height: 180px;
+	padding-top: 50px;
+	background: url('cn.png') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_bissingers{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('biss.jpeg') center no-repeat;
+ 	background-size: contain;
+ 	filter:opacity(30%);
+}
+
+a#btn_bissingers:hover{
+	filter:opacity(100%);
+}
+
+a#btn_ofa{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('ofa.png') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_ofa:hover{
+	filter: invert(85%);
+}
+
+a#btn_tonightshow{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('tnshow.png') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_tonightshow:hover{
+	transform: rotate(180deg);
+}
+
+a#btn_nike{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('nike_hover.png') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_nike:hover{
+	display: inline-block;
+	color: transparent;
+	width: 180px;
+	height: 180px;
+	padding-top: 50px;
+	background: url('nike.png') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_mbg{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('mbg.jpeg') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_mbg:hover{
+	display: inline-block;
+	color: transparent;
+	width: 180px;
+	height: 180px;
+	padding-top: 80px;
+	background: url('mbd_hover.jpg') center no-repeat;
+	background-size: contain;
+}
+
+a#btn_hulkhogan{
+	display: inline-block;
+	text-decoration: none;
+	color: orange;
+	font-family: 'Russo One', sans-serif;
+	font-size: 45px;
+	padding-top: 70px;
+}
+
+a#btn_hulkhogan:hover{
+	display: inline-block;
+	text-decoration: none;
+	color: orange;
+	font-family: 'Nosifer', cursive;
+	font-size: 45px;
+	padding-top: 70px;
+}
+
+a#btn_tesla{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('tesla.png') center no-repeat;
+ 	background-size: contain;
+}
+
+a#btn_tesla:hover{
+	transform:skewX(160deg);
+}
+
+a#btn_colorrun{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('cr.png') center no-repeat;
+ 	background-size: contain;
+ 	filter: saturate(50%);
+}
+
+a#btn_colorrun:hover{
+	filter: saturate(100%);
+}
+
+a#btn_moo{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('moo.png') center no-repeat;
+ 	background-size: contain;
+ 	filter: saturate(0%);
+}
+
+a#btn_moo:hover{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('moo_hover.png') center no-repeat;
+ 	background-size: contain;
+ 	filter: saturate(100%);
+}
+
+a#btn_pottermore{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('pm_hover.png') center no-repeat;
+ 	background-size: contain;
+ }
+
+a#btn_pottermore:hover{
+	display: inline-block;
+	width: 230px;
+ 	height:230px;
+ 	padding-top: 50px;
+ 	background: transparent url('pm.png') center no-repeat;
+ 	background-size: contain;
+ 	filter:drop-shadow(8px 8px 10px gray);
+}
+
+a#btn_fitbit{
+	display: inline-block;
+	width: 200px;
+ 	height:200px;
+ 	padding-top: 50px;
+ 	background: transparent url('fitbit.svg') center no-repeat;
+ 	background-size: contain;
+ }
+
+ a#btn_fitbit:hover{
+ 	filter:hue-rotate(90deg);
+ }
