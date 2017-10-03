@@ -1,0 +1,167 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Archivo Narrow', sans-serif;
+
+}
+h1, h2, h3, h4, h5{
+	margin-top: 0px;
+	margin-bottom: .5em;
+}
+#top_section{
+	background: url("eye.jpg") no-repeat center;
+	height: 480px;
+}
+#top_section h1{
+	text-align: center;
+	padding-top: 156px;
+	font-size: 80px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: white;
+}
+#top_section h2{
+	text-align: center;
+	font-family: 'Archivo Narrow', sans-serif;
+	margin-top: -38px;
+	font-size: 28px;
+	letter-spacing: 1.5px;
+	font-weight: bolder; 
+	color: white;
+}
+#section2{
+	height: 645px;
+	background-color: lightgreen;
+}
+#section2 h2{
+	text-align: center;
+	padding-top: 42px;
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+
+#a{
+    width: 960px;
+    height: 500px;
+    margin: auto;
+    padding-top: 1px;
+}
+
+#section2 img{
+	float: right;
+    height: 300px;
+    width: 400px;
+    margin-bottom: 25px;
+    margin-left: 39px;
+}
+#section2 p{
+	display: block;
+	margin-top: 16px;
+    font-size: 18px;
+    line-height: 1.2em;
+}
+#section3{
+	background-color: lightpink;
+	color: black;
+    height: 680px;
+}
+#section3 h2{
+	text-align: center;
+    font-size: 40px;
+    padding-right: 2px;
+    padding-bottom: 11px;
+    padding-top: 42px;
+    letter-spacing: 1.3px;
+}
+.b{
+	width: 960px;
+	height: 400px;
+    display:block;
+    margin:auto;
+}
+.c{
+	float: left;
+    width: 425px;
+    padding-right: 50px;
+    display: block;
+ }
+.c img{
+	float: left;
+    width: 200px;
+    height: 150px;
+    padding-right: 11px;
+}
+#section3 h4{
+	font-size: 22px;
+    margin-top: 3px;
+    margin-bottom: 6px;
+    letter-spacing: .3px;
+}
+#section3 p{
+	display: block;
+    font-size: 18px;
+    line-height: 1.2em;
+    padding-right: 7px;
+    padding-bottom: 43px;
+    margin: 0;
+}  
+.d{
+	float: left;
+    width: 440px;
+    padding-left: 6px;
+    display: block;
+}
+.d img{
+	float: left;
+    width: 200px;
+    height: 150px;
+    padding-right: 11px;	
+}
+.e{
+	height: 150px;
+    margin-bottom: 24px;
+    display: block;
+}
+
+#section4{
+	text-align: center;
+    height: 412px;
+    background-color: orange;
+    color: black;
+}
+#section4 h2{
+	text-align: center;
+    font-size: 40px;
+    padding-top: 41px;
+    letter-spacing: 1.3px;
+}
+#section4 p{
+	width: 723px;
+    height: 150px;
+    margin: auto;
+    padding-top: 15px;
+    font-size: 27px;
+    line-height: 1.15em;
+}
+
+#section5{
+	height: 98px;
+	background-color: yellow;
+	color: black;
+}
+.f{
+	height:40px;
+	margin: auto;
+	padding-top: 23px;
+	padding-bottom: 40px;
+	width: 960px;
+}
+#section5 p{
+	font-size: 18px;
+	float:left;
+}
+.g{
+	float: right;
+	padding-top: 11px
+
+}
