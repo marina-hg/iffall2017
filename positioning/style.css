@@ -2,8 +2,10 @@
 	float: right;
 }
 #section2 aside{
-	float: right;
-	margin-top: 115px;
+	/*float: right;*/
+	margin-top: 50px;
+	margin-left: 620px;
+	position: absolute;
 }
 #section3 aside{
 	background-color: green;
@@ -16,10 +18,11 @@
 	position: absolute;
 	margin-left: 300px;
 	z-index: 1;
+	margin-top: -100px;
 }
 #callout2{
 	background-color: black;
 	position: absolute;
-	margin-top: 10px;
+	margin-top: -90px;
 	margin-left: 310px;
 }
