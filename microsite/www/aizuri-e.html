@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Japanese Woodblock Prints - Aizuri-e</title>
+	<link href="style4.css" rel="stylesheet" type="text/css">
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu');
+	</style>
+
+</head>
+
+<body>
+	<h1>WOODBLOCK PRINTING</h1>
+	<h2>IN JAPAN</h2>
+
+	<div class="dropdown">
+		<button onclick="myFunction()" class="dropbtn"></button>
+	 	<div id="myDropdown" class="dropdown-content">
+		    <a id="first" href="index.html">History</a>
+		    <a href="sumizuri-e.html">Sumizuri-e</a>
+		    <a href="benizuri-e.html">Benizuri-e</a>
+		    <a href="aizuri-e.html">Aizuri-e</a>
+		    <a href="urushi-e.html">Urushi-e</a>
+		    <a id="last" href="nishiki-e.html">Nishiki-e</a>
+  		</div>
+	</div>
+
+	<h3>AIZURI-E</h3>
+	<p>(藍摺り絵, "indigo printed pictures"), Murasaki-e (紫絵, "purple pictures"), and other styles in which a single color was used in addition to, or instead of, black ink.<br><br>
+
+	The term aizuri-e (Japanese: 藍摺り絵 "blue printed picture") usually refers to Japanese woodblock prints that are printed entirely or predominantly in blue. When a second color is used, it is usually red. Even if only a single type of blue ink was used, variations in lightness and darkness (value) could be achieved by superimposing multiple printings of parts of the design or by the application of a gradation of ink to the wooden printing block (bokashi).<br><br>
+
+	The development of aizuri-e was associated with the import of the pigment Prussian blue from Europe in the 1820s. This pigment had a number of advantages over the indigo or dayflower petal dyes that were previously used to create blue. It was more vivid, had greater tonal range and was more resistant to fading. It proved to be particularly effective in expressing depth and distance, and its popularity may have been a major factor in establishing pure landscape as a new genre of ukiyo-e print.<br><br>
+
+	Early adopters included Hokusai in his Thirty Six Views of Mount Fuji (1830), most notably in The Great Wave off Kanagawa. Hiroshige also used Prussian blue extensively in his landscape prints. Other prominent Japanese artists to use it included Keisai Eisen, Utagawa Kunisada and Utagawa Sadahide.<br><br>
+
+	The theory that aizuri-e production was prompted by the 1842 sumptuary laws known as the Tenpō Reforms is no longer widely accepted.</p>
+
+	<img id="pic1" src="12408g1.jpg">
+	
+<script>
+	function myFunction() {
+	    document.getElementById("myDropdown").classList.toggle("show");
+	}
+
+	window.onclick = function(event) {
+	  if (!event.target.matches('.dropbtn')) {
+
+	    var dropdowns = document.getElementsByClassName("dropdown-content");
+	    var i;
+	    for (i = 0; i < dropdowns.length; i++) {
+	      var openDropdown = dropdowns[i];
+	      if (openDropdown.classList.contains('show')) {
+	        openDropdown.classList.remove('show');
+	      }
+	    }
+	  }
+	}
+</script>
+
+</body>
+</html>
