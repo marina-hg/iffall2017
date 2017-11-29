@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Japanese Woodblock Prints-Benizuri-e</title>
+	<link href="style3.css" rel="stylesheet" type="text/css">
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu');
+	</style>
+
+</head>
+
+<body>
+	<h1>WOODBLOCK PRINTING</h1>
+	<h2>IN JAPAN</h2>
+
+	<div class="dropdown">
+		<button onclick="myFunction()" class="dropbtn"></button>
+	 	<div id="myDropdown" class="dropdown-content">
+		    <a id="first" href="index.html">History</a>
+		    <a href="sumizuri-e.html">Sumizuri-e</a>
+		    <a href="benizuri-e.html">Benizuri-e</a>
+		    <a href="aizuri-e.html">Aizuri-e</a>
+		    <a href="urushi-e.html">Urushi-e</a>
+		    <a id="last" href="nishiki-e.html">Nishiki-e</a>
+  		</div>
+	</div>
+
+	<h3>BENIZURI-E</h3>
+	<p>(紅摺り絵, "crimson printed pictures")—red ink details or highlights added by hand after the printing process；green was sometimes used as well<br><br>
+
+	Benizuri-e (紅刷絵, "crimson printed pictures") are a type of "primitive" ukiyo-e style Japanese woodblock prints. They were usually printed in pink (beni) and green, occasionally with the addition of another color, either printed or added by hand. The production of benizuri-e reached its peak in the early 1740s. Torii Kiyohiro, Torii Kiyomitsu I, Torii Kiyonobu I, Okumura Masanobu, Nishimura Shigenaga, and Ishikawa Toyonobu are the artists most closely associated with benizuri-e.</p>
+
+	<img id="pic1" src="picc.jpg">
+
+<script>
+	function myFunction() {
+	    document.getElementById("myDropdown").classList.toggle("show");
+	}
+
+	window.onclick = function(event) {
+	  if (!event.target.matches('.dropbtn')) {
+
+	    var dropdowns = document.getElementsByClassName("dropdown-content");
+	    var i;
+	    for (i = 0; i < dropdowns.length; i++) {
+	      var openDropdown = dropdowns[i];
+	      if (openDropdown.classList.contains('show')) {
+	        openDropdown.classList.remove('show');
+	      }
+	    }
+	  }
+	}
+</script>
+
+</body>
+</html>
