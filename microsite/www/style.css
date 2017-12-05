@@ -42,7 +42,8 @@
 }
 .dropdown a:hover {background-color: #4c0000}
 
-.show {display:block;}
+.show {display:inline;}
+
 
 body{
     font-family: 'Ubuntu', sans-serif;
