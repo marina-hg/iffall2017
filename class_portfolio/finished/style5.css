@@ -1,0 +1,185 @@
+/*.dropbtn {
+    background-image: url("menu.png");
+    background-size: contain; 
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b20000;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: white;
+    padding-top:5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.dropdown-content #last {
+    padding-bottom: 12px;
+}
+.dropdown-content #first {
+    padding-top: 12px;
+}
+.dropdown a:hover {background-color: #4c0000}
+
+.show {display:block;}*/
+
+#links a{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    display: inline;
+    padding-right: 20px;
+    margin-bottom: 60px;
+    text-decoration: none;
+    margin-left: 89px; 
+
+}
+#links{
+    margin-bottom: 40px;
+    background-color: #b20000;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0px;
+
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 0;
+    margin-left: 35px;
+}
+p{
+    float: left;
+    width: 400px;
+    margin-left: 35px;
+    line-height: 160%;
+    font-size: 13px;
+}
+img{
+    width: 30%;
+    float: right;
+    margin-right: 35px;
+}
+@media screen and (max-width: 1232px) {
+    #links a {
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1172px) {
+    #links a {
+        padding-right: 5px;
+        margin-left: 79px; 
+    }
+}
+
+@media screen and (max-width: 1082px) {
+    #links a {
+        padding-right: 0px;
+        margin-left: 69px; 
+    }
+}
+
+@media screen and (max-width: 995px) {
+    #links a {
+        padding-right: 0px;
+        margin-left: 59px; 
+    }
+}
+
+@media screen and (max-width: 932px) {
+    #links a {
+        padding-right: 0px;
+        margin-left: 35px; 
+    }
+}
+
+@media screen and (max-width: 815px) {
+    #links a {
+        padding-right: 0px;
+        margin-left: 25px; 
+    }
+}
+
+
+@media screen and (max-width: 747px) {
+    #links a {
+        padding-right: 0px;
+        margin-left: 25px;
+        font-size: 12px; 
+    }
+}
+@media screen and (max-width: 688px) {
+    h1{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 747px) {
+    #links a {
+        padding-right: 0px;
+        margin-left: 18px;
+        font-size: 15px; 
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #links a {
+        padding-right: 0px;
+        margin-left: 10px;
+        font-size: 10px; 
+    }
+    h1{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 453px) {
+    #links a {
+        padding-right: 0px;
+        margin-left: 8px;
+        font-size: 10px; 
+    }
+    h1{
+        font-size: 60px;
+    }
+}

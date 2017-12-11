@@ -1,0 +1,17 @@
+body{
+	text-align: center;
+	display: block;
+	margin: 10px;
+	min-width: 200px;
+	box-sizing: border-box;
+}
+#pic-big img{
+	width: 85%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+#pic-small img{
+	width: 50%;
+	margin: auto;
+	margin-bottom: 30px;
+}

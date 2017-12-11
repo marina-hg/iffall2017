@@ -1,0 +1,75 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body, html{
+	/*width: 100%;*/
+	margin: auto;
+	background-image: url("post2.png");
+	background-size: cover;
+	background-position: right;
+	z-index: -1;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+@media screen and (max-width: 1600px) {
+	body {
+		background-position: 80%;
+	}
+}
+@media screen and (max-width: 800px) {
+	body {
+		width: 100%;
+		background-position: center;
+
+	}
+}
+p{
+	font-size: 30px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: white;
+	position: static;
+	z-index: 1;
+	padding-top: 25%;
+	padding-left: 15%;
+}
+@media screen and (max-width: 1120px) {
+	#a {
+		padding-left: 10%;
+	}
+}
+@media screen and (max-width: 900px) {
+	#a {
+		padding-left: 10%;
+		font-size: 20px;
+		padding-top: 30%;
+	}
+}
+@media screen and (max-width: 800px) {
+	#a {
+		padding-left: 10%;
+		font-size: 20px;
+		padding-top: 50%;
+	}
+}
+@media screen and (max-width: 600px) {
+	#a {
+		padding-top: 70%;
+	}
+}
+@media screen and (max-width: 400px) {
+	#a {
+		padding-left: 5%;
+		padding-top: 80%;
+	}
+}
+
+a{
+	display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
